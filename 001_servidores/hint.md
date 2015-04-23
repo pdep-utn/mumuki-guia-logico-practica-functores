@@ -1,0 +1,1 @@
+* Investigar como generar el dominio de servidores para lograr inversibilidad.

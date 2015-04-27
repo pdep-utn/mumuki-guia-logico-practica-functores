@@ -1,0 +1,1 @@
+* Para `insatisfecho/2` tener en cuenta que va a haber que discriminar entre mujer y hombre por el orden del functor.

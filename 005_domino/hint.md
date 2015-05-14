@@ -1,0 +1,1 @@
+* Definir los predicados auxiliares que hagan falta.

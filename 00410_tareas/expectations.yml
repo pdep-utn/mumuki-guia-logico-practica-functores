@@ -2,22 +2,22 @@ expectations:
  - binding: anterior
    inspection: HasBinding
  - binding: anterior
-   inspection: HasArity: 2
+   inspection: HasArity:2
  - binding: simple
    inspection: HasBinding
  - binding: simple
-   inspection: HasArity: 1
+   inspection: HasArity:1
  - binding: riesgo
    inspection: HasBinding
  - binding: riesgo
-   inspection: HasArity: 1
+   inspection: HasArity:1
   - binding: meFaltanPara
    inspection: HasBinding
  - binding: meFaltanPara
-   inspection: HasArity: 2
+   inspection: HasArity:2
   - binding: puedoHacer
    inspection: HasBinding
  - binding: puedoHacer
-   inspection: HasArity: 1
+   inspection: HasArity:1
  - binding: puedoHacer
    inspection: HasForall

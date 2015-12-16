@@ -11,11 +11,11 @@ expectations:
    inspection: HasBinding
  - binding: riesgo
    inspection: HasArity:1
-  - binding: meFaltanPara
+ - binding: meFaltanPara
    inspection: HasBinding
  - binding: meFaltanPara
    inspection: HasArity:2
-  - binding: puedoHacer
+ - binding: puedoHacer
    inspection: HasBinding
  - binding: puedoHacer
    inspection: HasArity:1

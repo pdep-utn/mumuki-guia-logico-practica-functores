@@ -18,7 +18,7 @@ expectations:
   - binding: complicado
    inspection: HasBinding
  - binding: complicado
-   inspection: HasArity: 1
+   inspection: HasArity:1
  - binding: homogeneo
    inspection: HasBinding
  - binding: homogeneo

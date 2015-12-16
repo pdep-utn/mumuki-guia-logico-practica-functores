@@ -6,10 +6,10 @@ tarea(cacheDistribuida, 120, arquitecto).
 tarea(pruebasPerformance, 100, tester).
 tarea(tuning, 30, arquitecto).
 
-precede(cacheDistribuida, pruebasPerformance). % La tarea pruebasDePerformance sólo puede comenzar una vez que cacheDistribuida finalice
+precede(cacheDistribuida, pruebasPerformance). % La tarea pruebasDePerformance solo puede comenzar una vez que cacheDistribuida finalice
 precede(pruebasPerformance, tuning).
 
-realizada(login). % La tarea login ya se realizó
+realizada(login). % La tarea login ya se realizo
 ```
 
 ## `anterior/2`
@@ -28,7 +28,7 @@ Las tareas que realizan los programadores y testers son consideradas simples. Ta
 
 ## `riesgo/1`
 
-Consideramos como riesgosas todas las tareas de 40 o más horas que aún no han sido realizadas. 
+Consideramos como riesgosas todas las tareas de 40 o más horas que aún no han sido realizadas.
 
 ## `meFaltanPara/2`
 

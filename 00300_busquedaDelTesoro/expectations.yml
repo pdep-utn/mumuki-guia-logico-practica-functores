@@ -11,11 +11,11 @@ expectations:
    inspection: HasBinding
  - binding: excelenteCompaniero
    inspection: HasArity:2
-  - binding: interesante
+ - binding: interesante
    inspection: HasBinding
  - binding: interesante
    inspection: HasArity:1
-  - binding: complicado
+ - binding: complicado
    inspection: HasBinding
  - binding: complicado
    inspection: HasArity:1

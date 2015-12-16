@@ -2,4 +2,4 @@ expectations:
  - binding: cedeTurno
    inspection: HasBinding
  - binding: cedeTurno
-   inspection: HasArity: 1
+   inspection: HasArity:1

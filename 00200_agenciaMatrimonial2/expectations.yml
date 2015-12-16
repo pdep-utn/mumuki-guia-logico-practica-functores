@@ -2,12 +2,12 @@ expectations:
  - binding: parejas
    inspection: HasBinding
  - binding: parejas
-   inspection: HasArity: 3
+   inspection: HasArity:3
  - binding: insatisfecho
    inspection: HasBinding
  - binding: insatisfecho
-   inspection: HasArity: 2
+   inspection: HasArity:2
  - binding: estable
    inspection: HasBinding
  - binding: estable
-   inspection: HasArity: 1
+   inspection: HasArity:1

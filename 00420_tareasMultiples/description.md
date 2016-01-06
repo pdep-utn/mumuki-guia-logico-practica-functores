@@ -1,4 +1,4 @@
-En el conocido proyecto de desarrollo de software para poder designar horas de trabajo de varios roles distintos a una misma tarea se define el siguiente hecho `tarea/2`:
+﻿En el conocido proyecto de desarrollo de software para poder designar horas de trabajo de varios roles distintos a una misma tarea se define el siguiente hecho `tarea/2`:
 
 ```prolog
 tarea(login, [trabajo(80, programador)]).

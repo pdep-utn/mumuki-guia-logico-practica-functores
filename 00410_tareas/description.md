@@ -1,4 +1,4 @@
-Para un proyecto de desarrollo de software se tiene una base de conocimientos con los siguientes hechos:
+ÔªøPara un proyecto de desarrollo de software se tiene una base de conocimientos con los siguientes hechos:
 
 ```prolog
 tarea(login, 80, programador). % La tarea login tarda 80 horas y debe ser realizada por el programador
@@ -14,21 +14,21 @@ realizada(login). % La tarea login ya se realizo
 
 ## `anterior/2`
 
-Relaciona dos tareas A y B si estas deben realizarse en un orden especÌfico, ya sea por una dependencia directa o indirecta.
+Relaciona dos tareas A y B si estas deben realizarse en un orden espec√≠fico, ya sea por una dependencia directa o indirecta.
 
 ```prolog
 ?- anterior(T, tuning).
 T = pruebasPerformance; (-> dependencia directa, porque pruebasPerformance precede a tuning)
-T = cacheDistribuida; (-> dependencia indirecta, a travÈs de pruebasPerformance)
+T = cacheDistribuida; (-> dependencia indirecta, a trav√©s de pruebasPerformance)
 ```
 
 ## `simple/1`
 
-Las tareas que realizan los programadores y testers son consideradas simples. TambiÈn se consideran simples todas las tareas que toman menos de una semana (40 horas).
+Las tareas que realizan los programadores y testers son consideradas simples. Tambi√©n se consideran simples todas las tareas que toman menos de una semana (40 horas).
 
 ## `riesgo/1`
 
-Consideramos como riesgosas todas las tareas de 40 o m·s horas que a˙n no han sido realizadas.
+Consideramos como riesgosas todas las tareas de 40 o m√°s horas que a√∫n no han sido realizadas.
 
 ## `meFaltanPara/2`
 

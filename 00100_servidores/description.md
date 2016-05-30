@@ -33,9 +33,10 @@ esCliente(ps1,fs_x48). % acá dice que el servidor PS1 es cliente de FS_X48
 esCliente(was1,fs_x48). % acá dice que el servidor WAS1 es cliente de FS_X48
 ```
 
-En este ejemplo:
-
-* ante un corte de luz en la fila1, los servidores PS1 y PS2 requieren atención inmediata.
-* ante un rebooteo de FS_X48, tanto ese server como PS1 y WAS1 requieren atención normal.
-* ante un cuelgue en PS2, ese server requiere atención inmediata y nadie más.
-* ante un cuelgue en WAS1_2, ese server requiere atención normal y nadie más.
+> En este ejemplo:
+> 
+> * ante un corte de luz en la fila1, los servidores PS1 y PS2 requieren atención inmediata.
+> * ante un rebooteo de FS_X48, tanto ese server como PS1 y WAS1 requieren atención normal.
+> * ante un cuelgue en PS2, ese server requiere atención inmediata y nadie más.
+> * ante un cuelgue en WAS1_2, ese server requiere atención normal y nadie más.
+> 

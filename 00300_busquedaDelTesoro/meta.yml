@@ -1,8 +1,11 @@
+---
 tags:
-  - pdep
-  - guia4
-  - functores
-  - forall
-  - findall
-  - listas
-locale: es
+- pdep
+- guia4
+- functores
+- forall
+- findall
+- listas
+layout: editor_right
+type: problem
+extra_visible: false

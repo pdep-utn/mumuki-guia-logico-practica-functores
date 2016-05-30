@@ -1,6 +1,9 @@
+---
 tags:
-  - pdep
-  - guia4
-  - functores
-  - forall
-locale: es
+- pdep
+- guia4
+- functores
+- forall
+layout: editor_right
+type: problem
+extra_visible: false

@@ -1,5 +1,6 @@
+---
 expectations:
- - binding: cedeTurno
-   inspection: HasBinding
- - binding: cedeTurno
-   inspection: HasArity:1
+- binding: cedeTurno
+  inspection: HasBinding
+- binding: cedeTurno
+  inspection: HasArity:1

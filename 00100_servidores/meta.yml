@@ -1,7 +1,10 @@
+---
 tags:
-  - pdep
-  - guia4
-  - basico
-  - functores
-  - generacion
-locale: es
+- pdep
+- guia4
+- basico
+- functores
+- generacion
+layout: editor_bottom
+type: problem
+extra_visible: false

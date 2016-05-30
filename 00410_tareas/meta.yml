@@ -1,6 +1,9 @@
+---
 tags:
-  - pdep
-  - guia4
-  - forall
-  - listas
-locale: es
+- pdep
+- guia4
+- forall
+- listas
+layout: editor_right
+type: problem
+extra_visible: false

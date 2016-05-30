@@ -1,6 +1,9 @@
+---
 tags:
-  - pdep
-  - guia4
-  - listas
-  - functores
-locale: es
+- pdep
+- guia4
+- listas
+- functores
+layout: editor_right
+type: problem
+extra_visible: false

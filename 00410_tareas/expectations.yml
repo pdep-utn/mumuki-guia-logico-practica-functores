@@ -12,13 +12,13 @@ expectations:
   inspection: HasBinding
 - binding: riesgo
   inspection: HasArity:1
-- binding: meFaltanPara
+- binding: meFaltaPara
   inspection: HasBinding
-- binding: meFaltanPara
+- binding: meFaltaPara
   inspection: HasArity:2
 - binding: puedoHacer
   inspection: HasBinding
 - binding: puedoHacer
   inspection: HasArity:1
 - binding: puedoHacer
-  inspection: HasForall
+  inspection: HasUsage:meFaltaPara

@@ -1,4 +1,4 @@
-﻿Para un proyecto de desarrollo de software se tiene una base de conocimientos con los siguientes hechos:
+Para un proyecto de desarrollo de software se tiene una base de conocimientos con los siguientes hechos:
 
 ```prolog
 tarea(login, 80, programador). % La tarea login tarda 80 horas y debe ser realizada por el programador
@@ -30,16 +30,18 @@ Las tareas que realizan los programadores y testers son consideradas simples. Ta
 
 Consideramos como riesgosas todas las tareas de 40 o más horas que aún no han sido realizadas.
 
-## `meFaltanPara/2`
+## `meFaltaPara/2`
 
-Relaciona una tarea con la lista de todas las tareas que deben ser terminadas antes de poder comenzar con la misma y no han sido realizadas.
+Relaciona una tarea con otra que debe ser terminada antes de poder comenzar con la misma y no ha sido realizada todavía.
 
 ```prolog
-?- meFaltanPara(tuning, Faltantes).
-Faltantes = [pruebasPerformance, cacheDistribuida].
+?- meFaltaPara(tuning, Faltante).
+Faltante = pruebasPerformance;
+Faltante = cacheDistribuida.
 ```
 
 ## `puedoHacer/1`
 
-Indica si una tarea puede ser realizada. Usar forall/2 y debe garantizar inversibilidad.
-Una tarea puede ser realizada cuando no fue realizada ya y sus precedentes han sido realizadas.
+Indica si una tarea puede ser realizada. Una tarea puede ser realizada cuando no fue realizada ya y todas sus precedentes han sido realizadas.
+
+Se espera que sea inversible y que reutilice meFaltaPara/2.

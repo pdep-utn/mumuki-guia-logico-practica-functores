@@ -37,12 +37,11 @@ test(login_no_es_tarea_de_riesgo, fail):-
 test(siesta_no_es_tarea_de_riesgo, fail):-
 	riesgo(siesta).
 
-test(para_tuning_me_faltan_pruebasPerformance_y_cacheDistribuida):-
-	meFaltanPara(tuning, Tareas),
-	assertion(Tareas == [pruebasPerformance, cacheDistribuida]).
+test(para_tuning_me_faltan_pruebasPerformance_y_cacheDistribuida, set(Tarea == [pruebasPerformance, cacheDistribuida])):-
+	meFaltaPara(tuning, Tarea).
 	
 test(para_la_siesta_no_faltan_mas_tareas):-
-	meFaltanPara(siesta, []).
+	not(meFaltaPara(siesta, _)).
 
 test(puedo_hacer_siesta_y_cacheDistribuida, set(Tareas == [siesta, cacheDistribuida])):-
 	puedoHacer(Tareas).

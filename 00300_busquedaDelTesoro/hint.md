@@ -1,1 +1,0 @@
-* Para 'homogeneo/2' hay que saber de alguna forma si una lista tiene un único elemento. Conviene definir un predicado aparte para este problema.

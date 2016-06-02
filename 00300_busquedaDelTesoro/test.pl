@@ -55,9 +55,3 @@
 
  test(son_homogeneos_intermedio_y_modoDios, set(Niveles==[intermedio, modoDios])):-
 	homogeneo(Niveles).
-
- test(es_poliglota_juancho):-
-	poliglota(juancho).
-
- test(no_es_poliglota_gasti,fail):-
-	poliglota(gasti).

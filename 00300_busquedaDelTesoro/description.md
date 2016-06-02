@@ -52,13 +52,12 @@ Relaciona niveles con idiomas: un idioma es útil para un nivel si en alguno de 
 Relaciona dos participantes. El segundo es un excelente compañero para el primero si habla los idiomas de todos los destinos posibles del primero.
 Asegurar que el predicado sea inversible para los dos parámetros.
 
-
 ## `interesante/1`
 
 Un nivel es interesante si se cumple alguna de estas condiciones:
-• Todas las cosas posibles para buscar en ese nivel están vivas (las cosas vivas que conocemos son: árbol, perro y flor).
-• En alguno de los destinos posibles para el nivel se habla italiano.
-• La suma del capital de los participantes de ese nivel es mayor a 10000.
+* Todas las cosas posibles para buscar en ese nivel están vivas (las cosas vivas que conocemos son: árbol, perro y flor).
+* En alguno de los destinos posibles para el nivel se habla italiano.
+
 Asegurar que el predicado sea inversible.
 
 ## `complicado/1`

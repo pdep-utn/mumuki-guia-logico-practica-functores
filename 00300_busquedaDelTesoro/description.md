@@ -69,8 +69,3 @@ Un participante está complicado si: no habla ninguno de los idiomas de los dest
 
 Un nivel es homogéneo si en todas las opciones la cosa a buscar es la misma.
 Asegurar que el predicado sea inversible.
-
-
-## `poliglota/1`
-
-Una persona es políglota si habla al menos tres idiomas.

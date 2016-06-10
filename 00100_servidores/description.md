@@ -29,10 +29,11 @@ Para los dos predicados, el primer argumento es el servidor del cual se quiere s
 
 Lograr para ambos predicados la inversibilidad necesaria para que pueda consultarse qué servidores requieren atención dado un evento.
 
-> En este ejemplo:
+> ? requiereAtencionNormal(Servidor, rebooteo(fs_x48)).
+> Server = fs_x48;
+> Server = ps1;
+> Server = was1.
 > 
-> * ante un corte de luz en la fila1, los servidores PS1 y PS2 requieren atención inmediata.
-> * ante un rebooteo de FS_X48, tanto ese server como PS1 y WAS1 requieren atención normal.
-> * ante un cuelgue en PS2, ese server requiere atención inmediata y nadie más.
-> * ante un cuelgue en WAS1_2, ese server requiere atención normal y nadie más.
-> 
+> ? requiereAtencionInmediata(Servidor, corteDeLuz(fila1)).
+> Server = ps1;
+> Server = ps2.

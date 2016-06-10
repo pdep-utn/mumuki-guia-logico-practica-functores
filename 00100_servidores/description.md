@@ -18,24 +18,25 @@ En el Centro de Monitoreo de la empresa se reciben las alertas de los problemas 
 * rebooteos de servers, por ej `rebooteo(ps2)`
 * "cuelgues" de aplicaciones en un server, por ej `cuelgue(ps2)`
 
-Escribir las cláusulas que hagan falta para definir los predicados `requiereAtencionNormal/2` y `requiereAtencionInmediata/2`, sabiendo que:
+Escribir las cláusulas que hagan falta para definir el predicado `requiereAtencion/3` sabiendo que:
 
 * ante un corte de luz, todos los servidores de la fila requieren atención inmediata
 * ante un rebooteo de server, el server afectado y los otros servidores que sean clientes de ese server
 requieren atención normal.
 * ante un cuelgue de aplicación, el servidor afectado requiere atención inmediata si es crítico (criticidad 1 y 2), o atención normal si el servidor no es crítico (criticidad 3 y 4). Ningún otro servidor requiere atención.
 
-Para los dos predicados, el primer argumento es el servidor del cual se quiere saber si requiere o no atención, y el segundo es un evento de los mencionados anteriormente.
-
-Lograr para ambos predicados la inversibilidad necesaria para que pueda consultarse qué servidores requieren atención dado un evento.
+El primer argumento es el servidor del cual se quiere saber si requiere o no atención, y el segundo es un evento de los mencionados anteriormente y el tercero el tipo de atención. Este predicado debería permitir consultar qué servidores requieren atención y de qué tipo dado un evento.
 
 ```prolog
-? requiereAtencionNormal(Servidor, rebooteo(fs_x48)).
+? requiereAtencion(Servidor, rebooteo(fs_x48), normal).
 Server = fs_x48;
 Server = ps1;
 Server = was1.
 
-? requiereAtencionInmediata(Servidor, corteDeLuz(fila1)).
+? requiereAtencion(Servidor, corteDeLuz(fila1), inmediata).
 Server = ps1;
 Server = ps2.
+
+? requiereAtencion(Servidor, cuelgue(ps2), Tipo).
+Server = ps2, Tipo = inmediata.
 ```

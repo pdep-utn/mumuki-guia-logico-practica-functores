@@ -1,10 +1,6 @@
 ---
 expectations:
-- binding: requiereAtencionInmediata
+- binding: requiereAtencion
   inspection: HasBinding
-- binding: requiereAtencionInmediata
-  inspection: HasArity:2
-- binding: requiereAtencionNormal
-  inspection: HasBinding
-- binding: requiereAtencionNormal
-  inspection: HasArity:2
+- binding: requiereAtencion
+  inspection: HasArity:3

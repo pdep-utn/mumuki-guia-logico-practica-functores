@@ -13,5 +13,5 @@ test('es cierto que complicado(abril)'):-
 test('es cierto que complicado(mayo)'):-
   complicado(mayo).
   
-test('complicado es inversible'):-
+test('complicado es inversible', set(Mes == [marzo, abril, mayo])):-
   complicado(Mes).

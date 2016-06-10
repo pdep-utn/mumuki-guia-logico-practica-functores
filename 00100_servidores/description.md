@@ -29,11 +29,13 @@ Para los dos predicados, el primer argumento es el servidor del cual se quiere s
 
 Lograr para ambos predicados la inversibilidad necesaria para que pueda consultarse qué servidores requieren atención dado un evento.
 
-> ? requiereAtencionNormal(Servidor, rebooteo(fs_x48)).
-> Server = fs_x48;
-> Server = ps1;
-> Server = was1.
-> 
-> ? requiereAtencionInmediata(Servidor, corteDeLuz(fila1)).
-> Server = ps1;
-> Server = ps2.
+```prolog
+? requiereAtencionNormal(Servidor, rebooteo(fs_x48)).
+Server = fs_x48;
+Server = ps1;
+Server = was1.
+
+? requiereAtencionInmediata(Servidor, corteDeLuz(fila1)).
+Server = ps1;
+Server = ps2.
+```

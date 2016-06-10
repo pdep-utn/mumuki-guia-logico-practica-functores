@@ -5,7 +5,7 @@ tags:
 - basico
 - functores
 - generacion
-layout: editor_bottom
+layout: editor_right
 type: problem
 extra_visible: false
 language: 

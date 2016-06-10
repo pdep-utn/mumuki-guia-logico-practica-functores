@@ -12,3 +12,5 @@ ocurrio(cuelgue(ps2), marzo).
 ```
 
 Queremos saber si un mes fue `complicado/1` que se cumple si todos los servidores se vieron afectados por algún evento de ese mes. Un server se vio afectado por el evento si requirió atención de cualquier tipo (normal o inmediata).
+
+Asumir que se dispone del predicado `requiereAtencion/3` que relaciona un servidor, con un un evento y el tipo de atención requerida.

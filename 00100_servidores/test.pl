@@ -1,11 +1,3 @@
-servidor(ps1, fila1, 1).
-servidor(ps2, fila1, 2).
-servidor(was1, fila2, 1).
-servidor(was1_2, fila2, 4).
-servidor(fs_x48, fila2, 1).
-esCliente(ps1,fs_x48).
-esCliente(was1,fs_x48).
-
 test(ps1_y_ps2_requieren_atencion_inmediata_por_corte_de_luz_fila1, set(Server == [ps1, ps2])):-
 	requiereAtencionInmediata(Server, corteDeLuz(fila1)).
 

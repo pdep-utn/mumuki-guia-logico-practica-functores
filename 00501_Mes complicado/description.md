@@ -13,6 +13,6 @@ ocurrio(cuelgue(ps2), marzo).
 
 Queremos saber si un mes fue complicado, que se cumple si todos los servidores se vieron afectados por algún evento de ese mes. Un server se vio afectado por el evento si requirió atención de cualquier tipo (normal o inmediata).
 
-Asumí que se dispone de los predicados `server/3` que relaciona un servidor, con su fila y criticidad, y `requiereAtencion/3` que relaciona un servidor, con un un evento y el tipo de atención requerida.
+Asumí que se dispone de los predicados `servidor/3` que relaciona un servidor, con su fila y criticidad, y `requiereAtencion/3` que relaciona un servidor, con un un evento y el tipo de atención requerida.
 
 Desarrollá el predicado `complicado/1` de modo que sea inversible.

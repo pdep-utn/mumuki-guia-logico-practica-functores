@@ -8,6 +8,9 @@ test(was1_no_requiere_atencion_inmediata_por_corte_de_luz_fila1, nondet):-
 test(ps2_requiere_atencion_inmediata_por_cuelgue):-
 	requiereAtencion(ps2, cuelgue(ps2), inmediata).
 
+test(ps1_no_requiere_atencion_inmediata_por_cuelgue_de_ps2, fail):-
+	requiereAtencion(ps1, cuelgue(ps2), inmediata).
+	
 test(ps2_no_requiere_atencion_normal_por_cuelgue, fail):-
 	requiereAtencion(ps2, cuelgue(ps2), normal).
 	

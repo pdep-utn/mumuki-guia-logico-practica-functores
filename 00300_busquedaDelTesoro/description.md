@@ -55,6 +55,7 @@ Asegurar que el predicado sea inversible para los dos parámetros.
 ## `interesante/1`
 
 Un nivel es interesante si se cumple alguna de estas condiciones:
+
 * Todas las cosas posibles para buscar en ese nivel están vivas (las cosas vivas que conocemos son: árbol, perro y flor).
 * En alguno de los destinos posibles para el nivel se habla italiano.
 

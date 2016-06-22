@@ -63,7 +63,11 @@ Asegurar que el predicado sea inversible.
 
 ## `complicado/1`
 
-Un participante está complicado si: no habla ninguno de los idiomas de los destinos posibles para su nivel actual; está en un nivel distinto de básico y su capital es menor a 1500, o está en el nivel básico y su capital es menor a 500.
+Un participante está complicado si cumple alguna de las siguientes condiciones:
+
+* No habla ninguno de los idiomas de los destinos posibles para su nivel actual
+* Está en un nivel distinto de básico y su capital es menor a 1500
+* Está en el nivel básico y su capital es menor a 500.
 
 ## `homogeneo/1`
 

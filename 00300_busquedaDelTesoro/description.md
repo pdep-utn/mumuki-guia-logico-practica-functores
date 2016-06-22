@@ -45,7 +45,7 @@ Relaciona personas con ciudades; una ciudad es destino posible para una persona,
 
 ## `idiomaUtil/2`
 
-Relaciona niveles con idiomas: un idioma es útil para un nivel si en alguno de los destinos posibles para el nivel se habla el idioma (no implica que la persona sepa el idioma).
+Relaciona personas con idiomas: un idioma es útil para una persona si en alguno de los destinos posibles para el nivel en el que se encuentra se habla el idioma (no implica que la persona sepa el idioma).
 
 ## `excelenteCompaniero/2`
 

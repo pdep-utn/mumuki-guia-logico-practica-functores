@@ -2,8 +2,8 @@ La agencia matrimonial del ejercicio "Agencia Matrimonial" de la práctica 1 arm
 
 Damos un ejemplo de grupo:
 
-• mujeres: Ana, Nora y Marta
-• varones: Luis, Juan y Pedro
+* mujeres: Ana, Nora y Marta
+* varones: Luis, Juan y Pedro
 
 ```prolog
 preferencias(ana, [luis, juan, pedro]). % Ana prefiere a Luis antes que a Juan y a Juan antes que a Pedro.
@@ -19,11 +19,11 @@ La agencia quiere armar parejas que incluyan a todas las personas de un grupo, y
 Un conjunto de parejas es estable si todas sus parejas son estables en el contexto del conjunto.
 
 Una pareja es inestable en un contexto si alguno de sus dos integrantes quiere dejar al otro. Una persona A quiere dejar a otra B si existe una tercera C tal que:
+ 
+* A prefiere a C antes que a B, y
+* C prefiere a A antes que a su pareja (la que tiene asignada en el contexto).
 
-• A prefiere a C antes que a B, y
-• C prefiere a A antes que a su pareja (la que tiene asignada en el contexto).
-
-Ejemplo: el conjunto de Ana-Pedro, Nora-Luis, y Marta-Juan es inestable porque Ana quiere dejar a Pedro, dado que Ana prefiere a Luis antes que a Pedro, y Luis prefiere a Ana antes que a Nora (la pareja de Luis en el conjunto).
+**Ejemplo:** el conjunto de Ana-Pedro, Nora-Luis, y Marta-Juan es inestable porque Ana quiere dejar a Pedro, dado que Ana prefiere a Luis antes que a Pedro, y Luis prefiere a Ana antes que a Nora (la pareja de Luis en el conjunto).
 
 Se pide:
 

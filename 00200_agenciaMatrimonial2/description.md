@@ -26,7 +26,7 @@ Una pareja es inestable en un contexto si alguno de sus dos integrantes quiere d
 **Ejemplo:** el conjunto de Ana-Pedro, Nora-Luis, y Marta-Juan es inestable porque Ana quiere dejar a Pedro, dado que Ana prefiere a Luis antes que a Pedro, y Luis prefiere a Ana antes que a Nora (la pareja de Luis en el conjunto).
 
 Se pide:
-
+ 
 ## `parejas/3`
 
 Relaciona un conjunto de mujeres y otro de varones con cada posible pareja (una por consulta). A las parejas se las representa como un functor `pareja(Mujer, Hombre)`.

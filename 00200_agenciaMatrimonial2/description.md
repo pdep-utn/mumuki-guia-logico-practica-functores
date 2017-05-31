@@ -22,7 +22,7 @@ Una pareja es inestable en un contexto si alguno de sus dos integrantes quiere d
  
 * A prefiere a C antes que a B, y
 * C prefiere a A antes que a su pareja (la que tiene asignada en el contexto).
-
+ 
 **Ejemplo:** el conjunto de Ana-Pedro, Nora-Luis, y Marta-Juan es inestable porque Ana quiere dejar a Pedro, dado que Ana prefiere a Luis antes que a Pedro, y Luis prefiere a Ana antes que a Nora (la pareja de Luis en el conjunto).
 
 Se pide:

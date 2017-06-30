@@ -1,0 +1,14 @@
+---
+expectations:
+- binding: parejaPosible
+  inspection: HasBinding
+- binding: parejaPosible
+  inspection: HasArity:2
+- binding: mejorPareja
+  inspection: HasBinding
+- binding: mejorPareja
+  inspection: HasArity:2
+- binding: seVanAPelear
+  inspection: HasBinding
+- binding: seVanAPelear
+  inspection: HasArity:2

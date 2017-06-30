@@ -1,0 +1,1 @@
+Podría ser útil definir un predicado auxiliar integrante/2 (no inversible) que relacione a una persona con una pareja, si es una de las dos personas que la componen. 

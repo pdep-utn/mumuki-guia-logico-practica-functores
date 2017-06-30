@@ -1,1 +1,1 @@
-* Definir los predicados auxiliares que hagan falta.
+* Delegar todo lo posible a predicados auxiliares.

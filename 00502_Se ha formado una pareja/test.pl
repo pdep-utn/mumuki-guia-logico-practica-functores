@@ -7,8 +7,8 @@ test(nadie_quiere_a_milhouse, fail):-
 test(compatibilidad_ana_juan, true(Compatibilidad == 2)):-
   parejaPosible(ana, pareja(ana, juan, Compatibilidad)).
   
-test(parejas_posibles_de_ana, set(Pareja==[pareja(ana, luis, 4), pareja(ana, juan, 2), pareja(ana, pedro, 2)]):-
-  parejaPosible(ana,_).
+test(parejas_posibles_de_ana, set(Pareja==[pareja(ana, luis, 4), pareja(ana, juan, 2), pareja(ana, pedro, 2)])):-
+  parejaPosible(ana,Pareja).
   
 test(pueden_ser_aparejados, set(Persona==[ana, luis, juan, pedro, nora, marta])):-
   parejaPosible(Persona, _).

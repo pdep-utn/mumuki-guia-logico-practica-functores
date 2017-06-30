@@ -23,7 +23,7 @@ test(juan_tiene_muchas_mejores_parejas, set(Pareja == [pareja(juan, marta, 2), p
   mejorPareja(juan, Pareja).
   
 test(se_pelean_por_enganio):-
-  seVanAPelear(pareja(juan, marta, 2), pareja(ana, juan, 2)).
+  seVanAPelear(pareja(juan, marta, _), pareja(ana, juan, _)).
   
 test(se_pelean_por_dejarse):-
-  seVanAPelear(pareja(pedro, ana, 2), pareja(nora, luis, 4)).
+  seVanAPelear(pareja(pedro, ana, _), pareja(nora, luis, _)).

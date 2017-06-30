@@ -4,3 +4,11 @@ expectations:
   inspection: HasBinding
 - binding: cedeTurno
   inspection: HasArity:1
+- binding: extremoIzquierdo
+  inspection: HasBinding
+- binding: extremoIzquierdo
+  inspection: HasArity:1
+- binding: extremoDerecho
+  inspection: HasBinding
+- binding: extremoDerecho
+  inspection: HasArity:1

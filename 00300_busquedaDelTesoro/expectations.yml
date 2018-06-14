@@ -4,21 +4,9 @@ expectations:
   inspection: HasBinding
 - binding: destinoPosible
   inspection: HasArity:2
-- binding: idiomaUtil
-  inspection: HasBinding
-- binding: idiomaUtil
-  inspection: HasArity:2
-- binding: excelenteCompaniero
-  inspection: HasBinding
-- binding: excelenteCompaniero
-  inspection: HasArity:2
 - binding: interesante
   inspection: HasBinding
 - binding: interesante
-  inspection: HasArity:1
-- binding: complicado
-  inspection: HasBinding
-- binding: complicado
   inspection: HasArity:1
 - binding: homogeneo
   inspection: HasBinding

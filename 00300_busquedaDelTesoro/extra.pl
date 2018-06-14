@@ -21,17 +21,3 @@ tarea(basico,buscar(libro,jartum)).
  idioma(bucarest,rumano).
  idioma(belgrado,serbio).
  idioma(utn,nerd).
-
- habla(pepe,bulgaro).
- habla(pepe,griego).
- habla(pepe,italiano).
- habla(juancho,arabe).
- habla(juancho,griego).
- habla(juancho,hebreo).
- habla(lucy,griego).
- habla(gasti,nerd).
-
- capital(pepe,1200).
- capital(lucy,3000).
- capital(juancho,500).
- capital(gasti, 20000).

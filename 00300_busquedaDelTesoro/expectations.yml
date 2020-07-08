@@ -1,14 +1,20 @@
 ---
 expectations:
-- binding: destinoPosible
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: destinoPosible
   inspection: HasBinding
-- binding: destinoPosible
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: destinoPosible
   inspection: HasArity:2
-- binding: interesante
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: interesante
   inspection: HasBinding
-- binding: interesante
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: interesante
   inspection: HasArity:1
-- binding: homogeneo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: homogeneo
   inspection: HasBinding
-- binding: homogeneo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: homogeneo
   inspection: HasArity:1

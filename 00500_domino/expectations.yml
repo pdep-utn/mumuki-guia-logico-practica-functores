@@ -1,14 +1,20 @@
 ---
 expectations:
-- binding: cedeTurno
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cedeTurno
   inspection: HasBinding
-- binding: cedeTurno
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cedeTurno
   inspection: HasArity:1
-- binding: extremoIzquierdo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: extremoIzquierdo
   inspection: HasBinding
-- binding: extremoIzquierdo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: extremoIzquierdo
   inspection: HasArity:1
-- binding: extremoDerecho
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: extremoDerecho
   inspection: HasBinding
-- binding: extremoDerecho
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: extremoDerecho
   inspection: HasArity:1

@@ -3,7 +3,6 @@ name: Práctica Functores
 locale: es
 type: practice
 beta: false
-teacher_info: ''
 language: prolog
 id_format: "%05d"
 order:
@@ -12,3 +11,4 @@ order:
 - 300
 - 500
 - 502
+private: false

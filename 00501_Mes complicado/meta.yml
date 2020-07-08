@@ -1,4 +1,5 @@
 ---
+locale: es
 tags: []
 layout: input_right
 editor: code
@@ -6,3 +7,4 @@ type: problem
 extra_visible: false
 manual_evaluation: false
 choices: []
+name: Mes complicado

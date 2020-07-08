@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: requiereAtencion
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: requiereAtencion
   inspection: HasBinding
-- binding: requiereAtencion
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: requiereAtencion
   inspection: HasArity:3

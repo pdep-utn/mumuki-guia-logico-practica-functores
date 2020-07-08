@@ -1,10 +1,6 @@
 ---
-tags:
-- pdep
-- guia4
-- basico
-- functores
-- generacion
+locale: es
+tags: []
 layout: input_bottom
 editor: code
 type: problem
@@ -12,3 +8,4 @@ extra_visible: false
 teacher_info: ''
 manual_evaluation: false
 choices: []
+name: servidores

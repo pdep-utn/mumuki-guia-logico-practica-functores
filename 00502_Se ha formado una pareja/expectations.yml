@@ -1,14 +1,20 @@
 ---
 expectations:
-- binding: parejaPosible
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: parejaPosible
   inspection: HasBinding
-- binding: parejaPosible
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: parejaPosible
   inspection: HasArity:2
-- binding: mejorPareja
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mejorPareja
   inspection: HasBinding
-- binding: mejorPareja
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mejorPareja
   inspection: HasArity:2
-- binding: seVanAPelear
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: seVanAPelear
   inspection: HasBinding
-- binding: seVanAPelear
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: seVanAPelear
   inspection: HasArity:2

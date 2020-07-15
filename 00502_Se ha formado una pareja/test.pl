@@ -1,4 +1,4 @@
-test(ana_y_luis_forman_pareja):-
+test(ana_y_luis_forman_pareja, nondet):-
 	parejaPosible(ana, pareja(ana,luis, _)).
 	
 test(nadie_quiere_a_milhouse, fail):-
@@ -22,8 +22,8 @@ test(mejor_pareja_de_ana, set(Pareja == [pareja(ana, luis, 4) ])):-
 test(juan_tiene_muchas_mejores_parejas, set(Pareja == [pareja(juan, marta, 2), pareja(juan, ana, 2), pareja(juan, nora, 2) ])):-
   mejorPareja(juan, Pareja).
   
-test(se_pelean_por_enganio):-
+test(se_pelean_por_enganio, nondet):-
   seVanAPelear(pareja(juan, marta, _), pareja(ana, juan, _)).
   
-test(se_pelean_por_dejarse):-
+test(se_pelean_por_dejarse, nondet):-
   seVanAPelear(pareja(pedro, ana, _), pareja(nora, luis, _)).

@@ -4,7 +4,7 @@ test(ana_y_luis_forman_pareja, nondet):-
 test(nadie_quiere_a_milhouse, fail):-
   parejaPosible(milhouse, _).
   
-test(compatibilidad_ana_juan, true(Compatibilidad == 2)):-
+test(compatibilidad_ana_juan, [true(Compatibilidad == 2), nondet]):-
   parejaPosible(ana, pareja(ana, juan, Compatibilidad)).
   
 test(parejas_posibles_de_ana, set(Pareja==[pareja(ana, luis, 4), pareja(ana, juan, 2), pareja(ana, pedro, 2)])):-
